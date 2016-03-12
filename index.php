@@ -5,10 +5,24 @@
 	<title>Workshops con Bootstrap 3</title>
 	
 	<?php include("inc/head_common.php"); ?>
+	<link rel="stylesheet" href="css/load.css">
 	<link rel="stylesheet" href="css/workshops.css">
+
+	<!-- jquery -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.loader').remove();
+		});
+	</script>
 </head>
 <body>
-	<!-- <div class="loader"></div> -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4"><span class="loader"></span></div>
+		</div>
+	</div>
+	<div class=""></div>
 	<?php include("inc/header.php"); ?>
 	
 	<div id="workshop-list">
