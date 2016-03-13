@@ -17,12 +17,10 @@
 	</script>
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-md-offset-4"><span class="loader"></span></div>
-		</div>
-	</div>
-	<div class=""></div>
+	<!-- ============ PAGE LOADER START ============ -->
+		<div id="bodyLoader"><span class="loader"></span></div>
+    <!-- ============ PAGE LOADER END ============ -->
+
 	<?php include("inc/header.php"); ?>
 	
 	<div id="workshop-list">
